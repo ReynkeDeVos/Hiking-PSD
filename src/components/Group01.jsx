@@ -2,7 +2,7 @@ const HeroBar = () => {
   return (
     <div
       className="relative flex h-[1000px] rounded-3xl bg-cover bg-center text-white"
-      style={{ backgroundImage: "url('src/assets/Group01/01_hero.png')" }}>
+      style={{ backgroundImage: "url('./src/assets/Group01/01_hero.png')" }}>
       {/* Overlay image at the top */}
       <div className="absolute left-0 right-0 top-0">
         <img src="src/assets/Group05/tornpaper_at_the_top.png" alt="Torn Paper Top" className="w-full" />
