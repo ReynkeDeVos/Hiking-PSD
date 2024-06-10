@@ -40,3 +40,24 @@
 .read-the-docs {
   color: #888;
 }
+
+.group5-bg {
+  width: 1440px;
+  height: 765px;
+  position: relative;
+  background-color: #7f7770;
+}
+
+.group5-bg:before {
+  content: "";
+  position: absolute;
+  margin-top: 500px;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100px;
+  background-image: url(../src/assets/Group05/up_torn_paper.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
