@@ -11,4 +11,8 @@ Currently, two official plugins are used:
 
 Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces. It's included in this setup for a more efficient and flexible styling approach.
 
+## Deployment
+
+The site is deployed and can be accessed at [https://hikingisfun.netlify.app/](https://hikingisfun.netlify.app/)
+
 Feel free to explore the code and see how we approached the challenge of recreating the web template.
