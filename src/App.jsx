@@ -11,15 +11,12 @@ function App() {
   return (
     <>
       <Group00_navbar />
-
-  <Group5 />
-  <Subscribe />
-  <Footer />
-
       <Group01 />
       <Group02 />
       <Group3_4 />
       <Group5 />
+      <Subscribe />
+  <Footer />
 
     </>
   );
