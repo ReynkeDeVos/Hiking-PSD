@@ -48,3 +48,10 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
 }
+
+.wave
+{
+  height: 100rem;
+  position: relative;
+  background: linear-gradient(90deg, #f0027f, #75489f);
+}
