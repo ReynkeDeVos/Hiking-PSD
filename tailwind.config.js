@@ -4,6 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        colors: true,
         sans: ['Open Sans', 'sans-serif'],
       },
     },
