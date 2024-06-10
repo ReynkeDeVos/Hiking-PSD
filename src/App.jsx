@@ -7,8 +7,8 @@ function App() {
   return (
     <>
       <Group00_navbar />
-    <Group3_4 />
-  <Group5 />
+      <Group3_4 />
+      <Group5 />
     </>
   );
 }
