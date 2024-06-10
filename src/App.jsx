@@ -11,7 +11,6 @@ import Group7 from './components/Group7';
 import Footer from './components/Footer';
 import Subscribe from './components/Subscribe';
 
-
 function App() {
   return (
     <>
@@ -25,10 +24,9 @@ function App() {
       <Group7 />
 
       <Subscribe />
-  <Footer />
-
+      <Footer />
     </>
   );
-};
+}
 
 export default App;
