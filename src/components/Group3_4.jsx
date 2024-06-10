@@ -6,7 +6,7 @@ const Group3_4 = () => {
       
 
       <div className="flex items-center">
-        <img src="../src/assets/Group03/03_01.png" className="w-1/2 mr-4" />
+        <img src="../src/assets/Group03/03_01.png" className="w-1/2 mr-4 rounded-3xl" />
         <aside>
           <h1>
             Discount up to 50% All Excursions
@@ -20,7 +20,7 @@ const Group3_4 = () => {
         </aside>
       </div>
       <div className="flex items-center">
-        <aside  className="w-1/2 mr-4">
+        <aside  className="w-1/2 mr-4 rounded-3xl">
           <h1>
             Januarys' Promo: <br/>
             Buy 1 Get 1 Free!
