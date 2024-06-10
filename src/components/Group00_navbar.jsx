@@ -36,7 +36,7 @@ const Navbar = () => {
         <div className="relative flex w-full justify-center sm:w-auto">
           <input
             type="text"
-            className="ml-8 h-11 w-full rounded-full border border-gray-300 bg-[#7f7770] px-3 py-2 opacity-50 focus:outline-none focus:ring-1 focus:ring-blue-500 sm:w-4/6"
+            className="ml-8 h-11 w-full rounded-full border border-gray-300 bg-[#7f7770] px-3 py-2 opacity-50 focus:outline-none focus:ring-2 focus:ring-[#776c64] sm:w-4/6"
           />
           <img src={searchIcon} alt="Search" className="absolute right-12 top-2 h-7 w-7 text-[#54524f]" />
         </div>
