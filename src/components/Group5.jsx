@@ -32,14 +32,10 @@ const Group5 = () => {
           className="before h-[15%] w-[100%] bg-cover bg-no-repeat"
           style={{
             content: '',
-            marginTop: '600px',
+            marginTop: '450px',
             backgroundImage: `url(${bottomTornPaperImage})`,
           }}></div>
-        <img
-          src={shadowImage}
-          alt="Shadow"
-          className="absolute bottom-20 left-10 h-1/2 w-1/2 -translate-x-1/10 scale-x-[-1] transform opacity-50"
-        />
+        <img src={shadowImage} alt="Shadow" className="absolute bottom-0 left-0 h-1/2 w-1/2 transform opacity-50" />
       </div>
     </>
   );
