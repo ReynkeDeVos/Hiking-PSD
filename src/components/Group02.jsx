@@ -1,8 +1,13 @@
+import shadowImage from '../assets/Group02/02_shadow.png';
+import image1 from '../assets/Group02/02_01.png';
+import image2 from '../assets/Group02/02_02.png';
+import image3 from '../assets/Group02/02_03.png';
+
 const Webpage = () => {
   return (
     <div className="relative overflow-hidden">
       <img
-        src="./src/assets/Group02/02_shadow.png"
+        src={shadowImage}
         alt="Shadow"
         className="-translate-x-1/10 absolute bottom-0 left-0 h-1/2 w-1/2 scale-x-[-1] transform opacity-50"
       />
@@ -18,11 +23,7 @@ const Webpage = () => {
 
           <div className="grid w-full grid-cols-1 gap-6 md:grid-cols-3 md:gap-24">
             <div className="flex flex-col rounded-sm">
-              <img
-                src="./src/assets/Group02/02_01.png"
-                alt="Image 1"
-                className="mt-[-120px] w-full rounded-sm object-cover"
-              />
+              <img src={image1} alt="Image 1" className="mt-[-120px] w-full rounded-sm object-cover" />
               <div className="flex h-56 w-full items-center justify-center rounded-sm bg-[#7f7770]">
                 <div className="ml-4 text-left font-OpenSans text-white">
                   <p className="text-2xl font-semibold">Lorem ipsum</p>
@@ -31,11 +32,7 @@ const Webpage = () => {
               </div>
             </div>
             <div className="flex flex-col rounded-sm">
-              <img
-                src="./src/assets/Group02/02_02.png"
-                alt="Image 2"
-                className="mt-[-120px] w-full rounded-sm object-cover"
-              />
+              <img src={image2} alt="Image 2" className="mt-[-120px] w-full rounded-sm object-cover" />
               <div className="flex h-56 w-full items-center justify-center rounded-sm bg-[#7f7770]">
                 <div className="ml-4 text-left font-OpenSans text-white">
                   <p className="text-2xl font-semibold">Lorem ipsum</p>
@@ -44,11 +41,7 @@ const Webpage = () => {
               </div>
             </div>
             <div className="flex flex-col rounded-sm">
-              <img
-                src="./src/assets/Group02/02_03.png"
-                alt="Image 3"
-                className="mt-[-120px] w-full rounded-sm object-cover"
-              />
+              <img src={image3} alt="Image 3" className="mt-[-120px] w-full rounded-sm object-cover" />
               <div className="flex h-56 w-full items-center justify-center rounded-sm bg-[#7f7770]">
                 <div className="ml-4 text-left font-OpenSans text-white">
                   <p className="text-2xl font-semibold">Lorem ipsum</p>

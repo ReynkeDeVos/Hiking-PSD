@@ -1,5 +1,5 @@
-import logo from './src/assets/Group01/01_logo.png';
-import searchIcon from './src/assets/Group01/01_search.svg';
+import logo from '../assets/Group01/01_logo.png';
+import searchIcon from '../assets/Group01/01_search.svg';
 
 const Navbar = () => {
   return (

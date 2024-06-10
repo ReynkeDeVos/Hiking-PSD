@@ -1,11 +1,15 @@
+import heroImage from '../assets/Group01/01_hero.png';
+import tornPaperTop from '../assets/Group05/tornpaper_at_the_top.png';
+import tornPaperBottom from '../assets/Group05/tornpaper_at_the_bottom.png';
+
 const HeroBar = () => {
   return (
     <div
       className="relative flex h-[1000px] rounded-3xl bg-cover bg-center text-white"
-      style={{ backgroundImage: "url('./src/assets/Group01/01_hero.png')" }}>
+      style={{ backgroundImage: `url(${heroImage})` }}>
       {/* Overlay image at the top */}
       <div className="absolute left-0 right-0 top-0">
-        <img src="src/assets/Group05/tornpaper_at_the_top.png" alt="Torn Paper Top" className="w-full" />
+        <img src={tornPaperTop} alt="Torn Paper Top" className="w-full" />
       </div>
 
       <div className="relative ml-10 flex flex-col items-start justify-center sm:w-full md:w-1/2">
@@ -25,9 +29,10 @@ const HeroBar = () => {
           dolore magna aliquyam erat, sed diam voluptua.
         </div>
       </div>
+
       {/* Overlay image at the bottom */}
       <div className="absolute bottom-0 left-0 right-0">
-        <img src="src/assets/Group05/tornpaper_at_the_bottom.png" alt="Torn Paper Bottom" className="w-full" />
+        <img src={tornPaperBottom} alt="Torn Paper Bottom" className="w-full" />
       </div>
     </div>
   );
