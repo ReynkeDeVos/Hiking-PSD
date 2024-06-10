@@ -35,6 +35,8 @@ const Navbar = () => {
         {/* Search icon */}
         <div className="relative flex w-full justify-center sm:w-auto">
           <input
+            id="searchInput"
+            name="search"
             type="text"
             className="ml-8 h-11 w-full rounded-full border border-gray-300 bg-[#7f7770] px-3 py-2 font-bold text-black opacity-80 focus:outline-none focus:ring-2 focus:ring-[#776c64] sm:w-4/6"
           />
