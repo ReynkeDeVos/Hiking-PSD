@@ -4,7 +4,7 @@ const Webpage = () => {
       <img
         src="./src/assets/Group02/02_shadow.png"
         alt="Shadow"
-        className="absolute bottom-0 left-0 h-1/2 w-1/2 -translate-x-1/10 scale-x-[-1] transform opacity-50"
+        className="-translate-x-1/10 absolute bottom-0 left-0 h-1/2 w-1/2 scale-x-[-1] transform opacity-50"
       />
 
       <div className="flex h-1/2 flex-col items-center justify-between space-y-6 md:h-auto md:flex-row md:space-x-6 md:space-y-0">
@@ -26,9 +26,7 @@ const Webpage = () => {
               <div className="flex h-56 w-full items-center justify-center rounded-sm bg-[#7f7770]">
                 <div className="ml-4 text-left font-OpenSans text-white">
                   <p className="text-2xl font-semibold">Lorem ipsum</p>
-                  <p className="pt-2 font-OpenSans text-xl font-normal">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing...
-                  </p>
+                  <p className="pt-2 text-xl font-normal">Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
                 </div>
               </div>
             </div>
@@ -41,9 +39,7 @@ const Webpage = () => {
               <div className="flex h-56 w-full items-center justify-center rounded-sm bg-[#7f7770]">
                 <div className="ml-4 text-left font-OpenSans text-white">
                   <p className="text-2xl font-semibold">Lorem ipsum</p>
-                  <p className="pt-2 font-OpenSans text-xl font-normal">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing...
-                  </p>
+                  <p className="pt-2 text-xl font-normal">Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
                 </div>
               </div>
             </div>
@@ -56,14 +52,12 @@ const Webpage = () => {
               <div className="flex h-56 w-full items-center justify-center rounded-sm bg-[#7f7770]">
                 <div className="ml-4 text-left font-OpenSans text-white">
                   <p className="text-2xl font-semibold">Lorem ipsum</p>
-                  <p className="pt-2 font-OpenSans text-xl font-normal">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing...
-                  </p>
+                  <p className="pt-2 text-xl font-normal">Lorem ipsum dolor sit amet, consectetur adipisicing...</p>
                 </div>
               </div>
             </div>
           </div>
-          <button className="focus:border-brown-500 h-20 w-80 rounded-full bg-[#7f7770] font-OpenSans text-2xl font-extrabold uppercase leading-5 tracking-widest text-white focus:outline-none focus:ring-2 focus:ring-[#776c64]">
+          <button className="h-20 w-80 rounded-full bg-[#7f7770] font-OpenSans text-2xl font-extrabold uppercase leading-5 tracking-widest text-white focus:outline-none focus:ring-2 focus:ring-[#776c64]">
             SHOW MORE
           </button>
         </div>

@@ -1,8 +1,13 @@
 const HeroBar = () => {
   return (
     <div
-      className="relative mb-3 mt-3 flex h-[1000px] rounded-3xl bg-cover bg-center text-white"
+      className="relative flex h-[1000px] rounded-3xl bg-cover bg-center text-white"
       style={{ backgroundImage: "url('src/assets/Group01/01_hero.png')" }}>
+      {/* Overlay image at the top */}
+      <div className="absolute left-0 right-0 top-0">
+        <img src="src/assets/Group05/tornpaper_at_the_top.png" alt="Torn Paper Top" className="w-full" />
+      </div>
+
       <div className="relative ml-10 flex flex-col items-start justify-center sm:w-full md:w-1/2">
         <h1 className="mb-4 text-left font-OpenSans font-extrabold text-[#deb37e] drop-shadow-custom sm:text-4xl md:text-8xl">
           IT&apos;S TIME FOR HIKING
@@ -19,6 +24,10 @@ const HeroBar = () => {
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
           dolore magna aliquyam erat, sed diam voluptua.
         </div>
+      </div>
+      {/* Overlay image at the bottom */}
+      <div className="absolute bottom-0 left-0 right-0">
+        <img src="src/assets/Group05/tornpaper_at_the_bottom.png" alt="Torn Paper Bottom" className="w-full" />
       </div>
     </div>
   );
