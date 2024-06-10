@@ -30,9 +30,9 @@ const Group7 = () => {
           </div>
         </div>
         <div className="mb-4 text-2xl italic text-gray-800">
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis"
-          <p className="text-xxl font-semibold text-gray-700">Lorem Ipsum</p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis
+          <p className="text-xxl font-semibold text-gray-700">&quot;Lorem Ipsum&quot;</p>
         </div>
       </div>
     </div>
