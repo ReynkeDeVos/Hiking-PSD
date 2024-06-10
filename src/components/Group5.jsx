@@ -6,6 +6,7 @@ const Group5 = () => {
       <div
         className="group5-bg relative w-full"
         style={{
+          marginBottom: '200px',
           width: '100%',
           height: '765px',
           opacity: 0.8,
@@ -20,7 +21,11 @@ const Group5 = () => {
             height: '15%',
             backgroundImage: 'url(../src/assets/Group05/tornpaper_at_the_top.png)',
           }}></div>
-
+        <h1 className="mt-10 font-bold text-white">Discount up to 50% All Excursions</h1>
+        <p className="font-bold text-white">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus corrupti ex sit aut laboriosam quasi
+          alias sint magnam a nam, dolor et quia deserunt ut optio ea perferendis facilis delectus.
+        </p>
         <div
           className="before h-[15%] w-[100%] bg-cover bg-no-repeat"
           style={{
