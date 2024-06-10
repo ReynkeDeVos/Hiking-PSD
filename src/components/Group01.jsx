@@ -1,7 +1,7 @@
 const HeroBar = () => {
   return (
     <div
-      className="relative mb-10 mt-10 flex h-[1000px] rounded-3xl bg-cover bg-center text-white"
+      className="relative mb-3 mt-3 flex h-[1000px] rounded-3xl bg-cover bg-center text-white"
       style={{ backgroundImage: "url('src/assets/Group01/01_hero.png')" }}>
       <div className="relative ml-10 flex flex-col items-start justify-center sm:w-full md:w-1/2">
         <h1 className="drop-shadow-custom font-OpenSans mb-4 text-left font-extrabold text-[#deb37e] sm:text-4xl md:text-8xl">
