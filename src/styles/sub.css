@@ -1,0 +1,19 @@
+.sub-container{
+    background-color: #ecb47b;
+    height: 40vh;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+.sub-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    /* margin-top: 50%;
+    margin-bottom: 50%; */
+    /* background-color: aliceblue; */
+}
