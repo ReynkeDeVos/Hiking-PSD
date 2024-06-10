@@ -1,4 +1,6 @@
 import shadowImage from '../assets/Group02/02_shadow.png';
+import topTornPaperImage from '../assets/Group05/tornpaper_at_the_top.png';
+import bottomTornPaperImage from '../assets/Group05/tornpaper_at_the_bottom.png';
 
 const Group5 = () => {
   return (
@@ -19,7 +21,7 @@ const Group5 = () => {
             content: '',
             width: '100%',
             height: '15%',
-            backgroundImage: 'url(../src/assets/Group05/tornpaper_at_the_top.png)',
+            backgroundImage: `url(${topTornPaperImage})`,
           }}></div>
         <h1 className="mt-10 font-bold text-white">Discount up to 50% All Excursions</h1>
         <p className="font-bold text-white">
@@ -31,7 +33,7 @@ const Group5 = () => {
           style={{
             content: '',
             marginTop: '600px',
-            backgroundImage: 'url(../src/assets/Group05/tornpaper_at_the_bottom.png)',
+            backgroundImage: `url(${bottomTornPaperImage})`,
           }}></div>
         <img
           src={shadowImage}

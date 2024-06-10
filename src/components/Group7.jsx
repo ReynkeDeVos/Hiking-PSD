@@ -1,3 +1,5 @@
+import shadowImage from '../assets/Group07/07_shadow.png';
+
 const Group7 = () => {
   return (
     <div className="flex-grow bg-white py-12">
@@ -7,7 +9,7 @@ const Group7 = () => {
             <div
               className="absolute bottom-0 right-0 bg-no-repeat opacity-90"
               style={{
-                backgroundImage: `url("../src/assets/Group07/07_shadow.png")`,
+                backgroundImage: `url(${shadowImage})`,
                 width: '300px',
                 height: '300px',
               }}></div>

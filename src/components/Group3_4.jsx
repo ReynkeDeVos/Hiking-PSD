@@ -1,3 +1,6 @@
+import image1 from '../assets/Group03/03_01.png';
+import image2 from '../assets/Group04/04_01.png';
+
 const Group3_4 = () => {
   return (
     <div className="font-white text-left font-OpenSans text-white">
@@ -6,7 +9,7 @@ const Group3_4 = () => {
         style={{
           backgroundColor: '#7f7770',
         }}>
-        <img src="../src/assets/Group03/03_01.png" className="mr-4 w-1/2" />
+        <img src={image1} className="mr-4 w-1/2" />
         <aside
           className=""
           style={{
@@ -45,7 +48,7 @@ const Group3_4 = () => {
             </button>
           </div>
         </aside>
-        <img src="../src/assets/Group04/04_01.png" className="w-1/2" />
+        <img src={image2} className="w-1/2" />
       </div>
     </div>
   );

@@ -1,8 +1,10 @@
+import backgroundImage from '../assets/Group06/06_01.png';
+
 const Group6 = () => {
   return (
     <div
       className="relative flex h-96 flex-col items-end justify-center bg-cover bg-center"
-      style={{ backgroundImage: `url("../src/assets/Group06/06_01.png")` }}>
+      style={{ backgroundImage: `url(${backgroundImage})` }}>
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="relative z-10 pr-8 text-right">
         <h1 className="text-5xl font-extrabold text-orange-400 drop-shadow-md">EXPLORE</h1>
